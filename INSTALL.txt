@@ -1,0 +1,31 @@
+INSTALLATION INSTRUCTIONS - CodeReviewer
+==========================================
+
+QUICK START
+-----------
+1. Extract the ZIP file to any folder
+2. Double-click START_HERE.bat (Windows) or START_HERE.sh (Mac/Linux)
+3. Wait for dependencies to install (first time only)
+4. Tool will launch automatically
+
+NOTE: Static analysis works without any API keys.
+AI-powered review requires an OpenAI, Anthropic, or Ollama API key (optional).
+
+SYSTEM REQUIREMENTS
+-------------------
+Minimum:
+- Windows 10 / macOS 10.15 / Ubuntu 20.04
+- Python 3.10 or higher
+- 2GB RAM
+- 200MB free disk space
+
+MANUAL INSTALLATION
+-------------------
+1. Install Python 3.10+ from python.org
+2. Run: pip install -r requirements.txt
+3. Run: python code/validate_install.py
+4. Run: python code/codereviewer.py
+
+TROUBLESHOOTING
+---------------
+See docs/TROUBLESHOOTING.txt

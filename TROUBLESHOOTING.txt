@@ -1,0 +1,38 @@
+TROUBLESHOOTING GUIDE - CodeReviewer
+======================================
+
+PYTHON NOT FOUND
+----------------
+Fix:
+1. Install Python 3.10+ from https://python.org/downloads/
+2. Check "Add Python to PATH" during install
+3. Restart computer
+
+AI REVIEW NOT WORKING
+----------------------
+Error: "API key not configured"
+
+Fix:
+1. Click Settings in the app
+2. Enter your API key (OpenAI, Anthropic, or Ollama URL)
+3. Static analysis works without any API key
+
+LARGE FILES SLOW
+-----------------
+Fix:
+- Review smaller files or specific directories
+- Disable AI review for large codebases
+- Use static analysis only for speed
+
+PERMISSION DENIED
+-----------------
+Fix:
+1. Windows: Right-click START_HERE.bat -> Run as administrator
+2. Mac/Linux: chmod +x START_HERE.sh
+
+STILL NOT WORKING?
+------------------
+Contact support with:
+- OS and Python version
+- Full error message
+- Screenshots

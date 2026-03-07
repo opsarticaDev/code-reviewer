@@ -1,0 +1,29 @@
+QUICK START GUIDE - CodeReviewer
+==================================
+
+1. LAUNCH
+---------
+Double-click START_HERE.bat (Windows) or START_HERE.sh (Mac/Linux)
+
+2. ADD CODE
+-----------
+- Click "Add Files" or "Add Folder"
+- Select source code files or a project directory
+- Supports: Python, JavaScript, TypeScript, Java, Go, Ruby, and more
+
+3. REVIEW
+---------
+- Click "Run Review" for static analysis
+- Enable "AI Review" for deeper analysis (requires API key)
+- Select report format: Markdown, HTML, or JSON
+
+4. GET RESULTS
+--------------
+Review report saved in outputs/ folder.
+Includes: code quality, security issues, complexity metrics.
+
+TIPS
+----
+- Static analysis works without any API key
+- Start with a single file to test
+- See README.md for full documentation

@@ -1,0 +1,28 @@
+CODE REVIEWER WORKFLOW
+======================
+
+REVIEW PIPELINE
+---------------
+Source Code -> Static Analysis -> Security Scan -> Complexity Metrics -> AI Review (optional) -> Report
+
+WORKFLOW 1: Quick Static Analysis
+-----------------------------------
+1. Launch CodeReviewer
+2. Add source files
+3. Click "Run Review"
+4. Get report with linting, style, and complexity issues
+
+WORKFLOW 2: Security Audit
+----------------------------
+1. Launch CodeReviewer
+2. Add project folder
+3. Enable security scanning
+4. Review findings for vulnerabilities, hardcoded secrets, SQL injection risks
+
+WORKFLOW 3: AI-Powered Deep Review
+-------------------------------------
+1. Launch CodeReviewer
+2. Add source files
+3. Enter API key (OpenAI/Anthropic/Ollama)
+4. Enable AI Review
+5. Get detailed suggestions for code improvements

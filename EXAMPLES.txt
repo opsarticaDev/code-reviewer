@@ -1,0 +1,43 @@
+REAL-WORLD EXAMPLES - CodeReviewer
+====================================
+
+EXAMPLE 1: Python Project Review
+----------------------------------
+Scenario: Review a Python web application for code quality.
+
+Steps:
+1. Launch CodeReviewer
+2. Add your Python project folder
+3. Click "Run Review"
+4. Review report for complexity, style issues, and potential bugs
+
+Input: Python project with multiple .py files
+Output: Markdown report with findings and recommendations
+
+EXAMPLE 2: Security Audit Before Deployment
+---------------------------------------------
+Scenario: Check code for security vulnerabilities before release.
+
+Steps:
+1. Launch CodeReviewer
+2. Add project directory
+3. Enable security scanning
+4. Review all HIGH and CRITICAL findings
+5. Fix issues before deploying
+
+Input: Any codebase
+Output: Security report with severity ratings
+
+EXAMPLE 3: Code Quality Metrics
+---------------------------------
+Scenario: Measure code complexity for a refactoring plan.
+
+Steps:
+1. Launch CodeReviewer
+2. Add files to analyze
+3. Run review
+4. Check complexity scores and duplication metrics
+5. Prioritize refactoring targets
+
+Input: Large codebase
+Output: Complexity metrics, maintainability scores
