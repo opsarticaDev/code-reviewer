@@ -1,12 +1,3 @@
----
-title: CodeReviewer
-tags: []
-type: note
-project: CodeReviewer
-status: tutti
-created: 2026-03-07
-modified: 2026-03-12
----
 # CodeReviewer
 
 **Static analysis and AI-assisted code review infrastructure for research pipeline validation.**
